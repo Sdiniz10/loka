@@ -55,11 +55,38 @@ a {
 }
 #carrinho {
     height: 40px;
-    
+    fill: white;
 }
 #lupa {
-    height: 30px;
+    height: 35px;
     margin-top: 5px;
+background-color: white;
+    position: relative;
+   
+}
+.lupateste {
+    width: 30px;
+      vertical-align: middle;
+}
+input {
+    width: 0;
+    transition: 0.5s;
+    border: none;
+}
+.lupateste:hover { fill: #2A44AE;
+
+
+}
+svg:hover+input {
+    width: 200px;
+    border: solid 1px;
+    border-radius: 10%;
+}
+.lupateste:focus {
+    fill: #2A44AE;
+    width: 200px;
+    border: solid 1px;
+      border-radius: 10%;
 }
 .flex {
     justify-content: center;
