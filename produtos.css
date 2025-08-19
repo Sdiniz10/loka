@@ -1,9 +1,45 @@
 body {
     background-color: black;
+     font-family: sans-serif;
 }
 * { margin: 0;
     padding: 0;
       box-sizing: border-box;
+}
+@media (max-width: 1100px) {
+    main {
+        flex-direction: column; /* Conteúdo empilhado */
+    }
+
+    #conteudo {
+        margin-right: 0; /* Remove margem direita */
+    }
+
+    aside {
+        margin-top: 20px; /* Adiciona margem superior */
+    }
+    
+}
+@media (max-width: 550px) {
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    article {
+        padding: 10px;
+    }
+
+    aside {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
 }
 .header {
     width: 100%;
@@ -41,10 +77,10 @@ body {
 .descobrir {
     margin-top: 10px;
 }
-#produtos a:hover {
+#quemsomos a:hover {
     color: #2A44AE;
 }
-#quemsomos a{
+#produtos a{
     color: #2A44AE;
 }
 #entrar :hover {
@@ -152,4 +188,71 @@ footer {
     height: 30px;
     margin-top: 20px;
     margin-left: 162px;
+}
+.displayflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.camisas {
+display: flex;
+flex-direction: row;
+}
+.caixaazul {
+    width: 100%;
+    height: 400px;
+    background-color: #2A44AE;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+    
+}
+.camisas {
+transform: translate(-100px);
+   justify-content: center;
+    font-size: 3em;
+      color: #D4A817;
+}
+.camisa {
+
+    width: 250px;
+    height: 250px;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    color: #D4A817;
+    font-size: 0.5em;
+    margin-right: 100px;
+}
+.espaco {
+    display: flex;
+    justify-content: space-between;
+}
+.blusa {
+    transform: translate(110px);
+   margin-top: 0px;
+     width: 200px;
+    height: 250px;
+}
+.friao {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+.bones {
+ margin-left: 80vh;
+   justify-content: center;
+    font-size: 3em;
+      color: #D4A817;
+}
+.bonerosa {
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+.whitetenis {
+    margin-left: 150px;
+    width: 250px;
+    height: 250px;
 }

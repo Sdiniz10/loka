@@ -48,7 +48,7 @@ body {
     display: flex;
     justify-content: space-between; 
     color: white;
-    text-decoration: none; 
+    text-decoration: none;   
 }
 .logo1 {
     width: 90px;
@@ -80,10 +80,10 @@ body {
 #produtos a:hover {
     color: #2A44AE;
 }
-#quemsomos a{
+#entrar a{
     color: #2A44AE;
 }
-#entrar :hover {
+#quemsomos:hover {
     color: #2A44AE;
 }
 
@@ -107,7 +107,7 @@ background-color: white;
     width: 30px;
       vertical-align: middle;
 }
-input {
+.input1 {
     width: 0;
     transition: 0.5s;
     border: none;
@@ -126,107 +126,6 @@ svg:hover+input {
     width: 200px;
     border: solid 1px;
       border-radius: 10%;
-}
-.flex {
-    justify-content: center;
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.caixa1 {
-    height: 250px;
-    width: 500px;
-    background-color: blue;
-    flex-direction: column;
-    color: #D4A817;
-    text-align: center;
-    margin-top: 80px;
-    transform: translate(400px);
-    text-align: center;
-    display: flex;
-}
-
-.inverno {
-    height: 250px;
-    width: 500px;
-    transform: translate(300px);
-}
-.diniz {
-    margin-top: 40px;
-    font-size: 1.3em;
-}
-.bone {
-    height: 300px;
-    width: 500px;
-    margin-top: 300px;
-    margin-left: 300px;
-}
-.caixa2 {
-     height: 270px;
-    width: 500px;
-    background-color: blue;
-    flex-direction: column;
-    color: #D4A817;
-    text-align: center;
-    margin-top: 80px;
-     text-align: center;
-    display: flex;
-    margin-left: 700px;
-    transform: translateY(-200px);
-}
-.diniz2 {
-      margin-top: 40px;
-    font-size: 1.3em;
-}
-.caixa3 {
-     height: 300px;
-    width: 500px;
-    background-color: blue;
-    flex-direction: column;
-    color: #D4A817;
-    text-align: center;
-     text-align: center;
-    display: flex;
-    margin-bottom: 40px;
-        margin-left: 300px;
-
-
-}
-.diniz3 {
- margin-top: 40px;
-    font-size: 1.3em;
-}
-.tenis {
-     height: 300px;
-    width: 500px;
-      margin-left: 500px;
-      transform: translateY(-50px);
-
-}
-.frio {
-    height: 300px;
-    width: 500px;
-     margin-left: 700px;
-      margin-top: 40px;
-}
-.diniz4 {
- margin-top: 40px;
-    font-size: 1.3em;
-}
-.caixa4 {
-     height: 300px;
-    width: 500px;
-    background-color: blue;
-    flex-direction: column;
-    color: #D4A817;
-    text-align: center;
-     text-align: center;
-    display: flex;
-    margin-left: 300px;
-    transform: translateY(-40px);
-   
-
-
 }
 footer {
     background-color: white;
@@ -289,4 +188,80 @@ footer {
     height: 30px;
     margin-top: 20px;
     margin-left: 162px;
+}
+.caixabranca {
+ 
+    width: 20vh;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 77vh;
+    color: #D4A817;
+}
+.entrar2 {
+    font-size: 4em;
+}
+.caixa2 {
+width: 20vh;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 77vh;
+    color: #D4A817;
+    transform: translateY(-100px);
+}
+.usuario {
+    font-size: 1.5em;
+}
+.input2 {
+    border-radius: 50px;
+    width: 200px;
+  
+}
+.caixa3 {
+width: 20vh;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 77vh;
+    color: #D4A817;
+    transform: translateY(-200px);
+}
+.caixa4 {
+    width: 20vh;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 77vh;
+    color: #D4A817;
+    transform: translateY(-300px);
+}
+.azao {
+    color: #D4A817;
+    text-decoration: underline;
+}
+.caixa5 {
+    background-color: #D4A817;
+    width: 20vh;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 77vh;
+    color: white;
+    transform: translateY(-250px);
+}
+.inpu1 {
+     width: 0;
+    transition: 0.5s;
+    border: none;
+    display: none;
 }
